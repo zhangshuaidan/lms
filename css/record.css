@@ -1,0 +1,53 @@
+.show{
+	margin: 20px 0;
+}
+.show>.col-xs-12>p{
+	text-align: center;
+	border-radius: 5px;
+}
+.download{
+/*	color: #fff;*/
+	text-decoration: underline;
+}
+.choice{
+	margin: 20px 0;
+}
+.abadon{
+	margin-left: 70px;
+}
+/*表单记录部分*/
+.record{
+	margin-bottom: 20px;
+}
+.record>h3{
+	text-align: center;
+	margin-bottom: 10px;
+}
+/*定义表单栏的margin 防止出现横向滑动*/
+.container>.row>.form-horizontal>.form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+#zhi{
+	margin-top: 10px;
+}
+/*底部部分*/
+html,body{
+	height: 100%;
+}
+.all{
+	position: relative;
+	height: auto;
+	min-height: 100%;
+	padding-bottom: 40px;
+}
+.footer{
+	position: absolute;
+	height: 40px;
+	border: 1px solid silver;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 40px;
+}

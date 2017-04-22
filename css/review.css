@@ -1,0 +1,49 @@
+html,body{
+	height: 100%;
+}
+/*头部样式*/
+.header{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+/*搜索部分*/
+.search{
+	margin: 20px 0;
+	
+}
+.search>h4{
+	text-align:center;
+	margin: 10px 0;
+}
+.search .input-group{
+	margin-top: 10px;
+}
+/*请假内容部分*/
+.table-responsive th{
+	font-weight: bold;	
+}
+/*时间设置*/
+.time{
+	text-align: center;
+}
+/*重新定义底部样式*/
+html,body{
+	height: 100%;
+}
+.all{
+	position: relative;
+	height: auto;
+	min-height: 100%;
+	padding-bottom: 40px;
+}
+.footer{
+	position: absolute;
+	border: 1px solid silver;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 40px;
+}

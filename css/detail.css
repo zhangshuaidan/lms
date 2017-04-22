@@ -1,0 +1,62 @@
+a:active,a:hover{
+	text-decoration: none;
+}
+/*头部样式*/
+.header{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+/*主体部分*/
+.main{
+	margin: 20px 0;
+}
+/*定义表单栏的margin 防止出现横向滑动*/
+.container>.row>.form-horizontal>.form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+#zhi{
+	margin-top: 10px;
+}
+
+.allow{
+background-color: #59B459;
+}
+.refuse{
+	background-color: #D44B47;
+}
+.choice{
+	text-align: center;
+}
+.choice>a{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+/*底部部分*/
+html,body{
+	height: 100%;
+}
+.all{
+	position: relative;
+	height: auto;
+	min-height: 100%;
+	padding-bottom: 40px;
+}
+.footer{
+	position: absolute;
+	height: 40px;
+	border: 1px solid silver;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 40px;
+}

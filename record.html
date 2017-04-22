@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<!-- 引入basec初始化界面 -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- 引入首页样式获取头部样式 -->
+	<link rel="stylesheet" href="css/index.css">
+	<!-- 引入本页面自定义样式 -->
+	<link rel="stylesheet" href="css/record.css">
+	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<title>请假记录查询</title>
+</head>
+<body>
+<div class="all">
+	<!-- 头部内容 -->
+	<div class="header">
+		<h1>请假管理系统</h1>
+	</div>
+	<!-- 流程显示 -->
+	<div class="container ">
+		<div class="row  show">
+			<!--提出申请  -->
+			<div class="col-xs-12"><p class="bg-primary">提出申请</p>
+					<p><span class="glyphicon glyphicon-arrow-down"></span></p>
+			</div>
+			<!-- 辅导员审批 -->
+			<div class="col-xs-12"><p class="bg-info">辅导员审批</p>
+					<p><span class="glyphicon glyphicon-arrow-down"></span></p>
+			</div>
+			
+			<!-- 院部分管领导审批 -->
+			<div class="col-xs-12"><p class="bg-info">院部分管领导审批</p>
+					<p><span class="glyphicon glyphicon-arrow-down"></span></p>
+			</div>
+
+			<!-- 院部主要领导审批 -->
+			<div class="col-xs-12"><p class="bg-info">院部主要领导审批</p>
+					<p><span class="glyphicon glyphicon-arrow-down"></span></p>
+			</div>
+
+			<!-- 学生处审批 -->
+			<div class="col-xs-12"><p class="bg-info">学生处审批</p>
+					<p><span class="glyphicon glyphicon-arrow-down"></span></p>
+			</div>
+			
+			<!-- 请假成功下载假条 -->
+			<div class="col-xs-12"><p class="bg-info">请假成功
+			<a href="" class="download">（点击下载假条）</a></p>
+			</div>
+			<!-- 按钮 -->
+			<div class="col-xs-12 choice">
+				<button type="button" class="btn btn-success">我要销假</button><button type="button" class="btn btn btn-danger abadon">放弃请假</button>
+			</div>
+		</div>
+	</div>
+	<!--  请假信息记录-->
+  <div class="container record">
+  	<h3>请假记录</h3>
+    <div class="row">
+     <form class="form-horizontal">
+     <!-- 学号 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-3 col-sm-2 control-label ">学号</label>
+        <div class="col-xs-9 col-sm-10">
+        <input type="number" class="form-control" id="" placeholder="学号" disabled>
+    </div>
+    </div>
+    <!-- 姓名 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-3 col-sm-2 control-label">姓名</label>
+        <div class="col-xs-9 col-sm-10">
+        <input type="text" class="form-control" id="" placeholder="姓名" disabled>
+    </div>
+    </div>
+  <!-- 学院 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-3 col-sm-2 control-label">学院</label>
+        <div class="col-xs-9 col-sm-10">
+        <input type="text" class="form-control" id="" placeholder="学院" disabled>
+    </div>
+    </div>
+  <!-- 班级 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-3 col-sm-2 control-label">班级</label>
+        <div class="col-xs-9 col-sm-10">
+        <input type="text" class="form-control" id="" placeholder="班级" disabled>
+    </div>
+    </div>
+    <!-- 电话 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-3 col-sm-2 control-label">电话</label>
+        <div class="col-xs-9 col-sm-10">
+        <input type="number" class="form-control" id="" placeholder="电话" disabled>
+    </div>
+    </div>
+
+    <!-- 邮箱 -->
+    <div class="form-group" id="no">
+        <label for="inputEmail3" class="col-xs-3 col-sm-2 control-label">邮箱</label>
+        <div class="col-xs-9 col-sm-10">
+        <input type="email" class="form-control" id="" placeholder="邮箱" disabled>
+    </div>
+    </div>
+
+  <!-- 请假原因 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-4 col-sm-2 control-label">请假原因</label>
+        <div class="col-xs-8 col-sm-10">
+        <input type="text" class="form-control" id="" placeholder="请假原因" disabled>
+    </div>
+    </div>
+  <!-- 详细去向 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-4  col-sm-2 control-label">详细去向</label>
+        <div class="col-xs-8 col-sm-10">
+        <input type="text" class="form-control" id="" placeholder="详细去向" disabled>
+    </div>
+    </div>
+    <!-- 起止时间 -->
+        <div class="form-group" id="no">
+        <label  class="col-xs-4  col-sm-2 control-label">请假时间</label>
+
+        <div class="col-xs-3 ">
+        <input type="date" class="form-control" id="" placeholder="起始" disabled>
+    </div>
+       <span class="fl" id="zhi">至</span>
+      <div class="col-xs-3 ">
+        <input type="date" class="form-control" id="" placeholder="结束" disabled>
+      </div>
+    </div>
+
+  <!-- 联系人姓名 -->
+      <div class="form-group" id="no">
+        <label  class="col-xs-4 col-sm-2 control-label">联系人姓名</label>
+        <div class="col-xs-8 col-sm-10 ">
+        <input type="text" class="form-control" id="" placeholder="联系人姓名"disabled>
+    </div>
+    </div>
+       <!-- 联系人电话 -->
+    <div class="form-group" id="no">
+        <label  class="col-xs-4  col-sm-2 control-label">联系人电话</label>
+        <div class="col-xs-8 col-sm-10 ">
+        <input type="number" class="form-control" id="" placeholder="联系人电话" disabled>
+    </div>
+    </div>
+  </form>
+    </div>
+  </div>
+
+<!-- 底部部分版权信息 -->
+  <div class="footer">
+    &copy;信息工程学院&软件职业技术学院
+  </div>
+  </div>
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
