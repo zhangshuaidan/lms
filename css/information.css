@@ -1,7 +1,9 @@
 .header{
 	margin-bottom: 20px;
 }
-
+h3{
+	text-align: center;
+}
 #no{
 	margin-right: 0;
 	margin-left: 0;
@@ -31,4 +33,18 @@ html,body{
 	left: 0;
 	text-align: center;
 	line-height: 40px;
+}
+
+/*设置container的样式 媒体查询*/
+@media (min-width:992px) {
+	.container {
+		width: 550px;
+		padding-top: 20px;
+		border: 1px solid silver;
+		border-radius: 20px;
+		
+	}
+	.main{
+		margin-top: 80px;
+	}
 }

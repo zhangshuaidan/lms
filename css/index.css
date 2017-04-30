@@ -12,12 +12,17 @@ a:active,a:hover{
 	margin-top: 5px;
 	padding: 5px;
 }
-.main>h4{
+.main>h3{
 	margin-bottom: 5px;
 		text-align: center;
 }
 .table-responsive thead tr>th{
 	font-weight: bold;
+}
+/*对表格加边框*/
+.table-responsive{
+	margin-top: 10px;
+border:1px solid silver;
 }
 
 /*管理部分*/
@@ -55,4 +60,13 @@ background-color: #59B459;
 	bottom: 0;
 	text-align: center;
 	line-height: 40px;
+}
+/*设置container的样式 媒体查询*/
+@media (min-width:992px) {
+	.container {
+		width: 750px;
+	}
+	.main{
+		margin-top: 80px;
+	}
 }

@@ -10,6 +10,12 @@ a:active,a:hover{
 /*主体部分*/
 .main{
 	margin: 20px 0;
+	border: 1px solid silver;
+	border-radius: 20px;
+}
+h4{
+	margin: 20px 0;
+	text-align: center;
 }
 /*定义表单栏的margin 防止出现横向滑动*/
 .container>.row>.form-horizontal>.form-group{
@@ -59,4 +65,11 @@ html,body{
 	left: 0;
 	text-align: center;
 	line-height: 40px;
+}
+/*设置container的样式 媒体查询*/
+@media (min-width:992px) {
+	.container {
+		width: 600px;
+	}
+	
 }

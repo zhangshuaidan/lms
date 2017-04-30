@@ -1,3 +1,11 @@
+/*背景图片*/
+html{
+	height: 100%;
+}
+body{
+	background:url(../img/bg.jpg);
+	height: 100%;
+}
 /*头部样式*/
 .header{
 	text-align: center;
@@ -24,4 +32,16 @@
 	bottom: 0;
 	text-align: center;
 	line-height: 40px;
+}
+/*设置container的样式 媒体查询*/
+@media (min-width:992px) {
+	.container {
+		margin-top: 200px;
+		width: 600px;
+
+	}
+	.main{
+	border: 1px solid silver;
+	border-radius: 20px;
+}
 }

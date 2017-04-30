@@ -20,11 +20,15 @@ html,body{
 	margin-top: 10px;
 }
 /*请假内容部分*/
+.table-responsive{
+	border: 1px solid silver;
+}
 .table-responsive th{
 	font-weight: bold;	
 }
 /*时间设置*/
 .time{
+	margin-top: 10px;
 	text-align: center;
 }
 /*重新定义底部样式*/
@@ -46,4 +50,11 @@ html,body{
 	left: 0;
 	text-align: center;
 	line-height: 40px;
+}
+/*设置container的样式 媒体查询*/
+@media (min-width:992px) {
+	.container {
+		width: 600px;
+	}
+	
 }

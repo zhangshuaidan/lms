@@ -1,5 +1,12 @@
 .show{
+	padding-top: 20px;
 	margin: 20px 0;
+	border: 1px solid silver;
+	border-radius: 20px;
+	text-align: center;
+}
+.show>h4{
+	margin: 10px 0;
 }
 .show>.col-xs-12>p{
 	text-align: center;
@@ -50,4 +57,11 @@ html,body{
 	left: 0;
 	text-align: center;
 	line-height: 40px;
+}
+/*设置container的样式 媒体查询*/
+@media (min-width:992px) {
+	.container {
+		width: 600px;
+	}
+	
 }
